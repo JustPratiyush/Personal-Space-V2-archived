@@ -139,11 +139,11 @@ export const DATA = {
     {
       title: "Retrium OS",
       href: "https://retrium.vercel.app",
-      dates: "August 2025 - November 2025",
+      dates: "2026",
       active: true,
       description:
         "Retrium OS is an RPG game disguised as an operating system sandbox with a storyline. Play as a fictional character and uncover the secrets lying in this operating system.",
-      technologies: ["Javascript", "Redis Database"],
+      technologies: ["Javascript", "Redis Database", "RPG (Role-Playing Game)"],
       links: [
         {
           type: "Website",
