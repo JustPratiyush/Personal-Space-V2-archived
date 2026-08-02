@@ -28,7 +28,11 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/writings", icon: PencilLine, label: "My Writings" },
+    {
+      href: "https://open.substack.com/pub/abhinavkuchhal/p/test1?r=769xxp&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+      icon: PencilLine,
+      label: "My Writings",
+    },
   ],
   contact: {
     email: "abhinavkuchhal7@gmail.com",
@@ -133,17 +137,17 @@ export const DATA = {
       video: "",
     },
     {
-      title: "RetrOS",
-      href: "https://os-retro.vercel.app",
+      title: "Retrium OS",
+      href: "https://retrium.vercel.app",
       dates: "August 2025 - November 2025",
       active: true,
       description:
-        "RetrOS is a browser-based operating system sandbox inspired by classic Mac OS, reimagined with a modern twist and featuring a fully functional desktop environment",
+        "Retrium OS is an RPG game disguised as an operating system sandbox with a storyline. Play as a fictional character and uncover the secrets lying in this operating system.",
       technologies: ["Javascript", "Redis Database"],
       links: [
         {
           type: "Website",
-          href: "https://os-retro.vercel.app/",
+          href: "https://retrium.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
